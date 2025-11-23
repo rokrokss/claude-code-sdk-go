@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/severity1/claude-code-sdk-go/internal/shared"
+	"github.com/rokrokss/claude-code-sdk-go/internal/shared"
 )
 
 // TestParseValidMessages tests parsing of valid message types

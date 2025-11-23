@@ -90,7 +90,7 @@ import (
     "log"
     "time"
     
-    "github.com/severity1/claude-code-sdk-go"
+    "github.com/rokrokss/claude-code-sdk-go"
 )
 
 func main() {

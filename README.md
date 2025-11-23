@@ -6,9 +6,9 @@
 
 <div align="center">
 
-[![CI](https://github.com/severity1/claude-code-sdk-go/actions/workflows/ci.yml/badge.svg)](https://github.com/severity1/claude-code-sdk-go/actions/workflows/ci.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/severity1/claude-code-sdk-go.svg)](https://pkg.go.dev/github.com/severity1/claude-code-sdk-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/severity1/claude-code-sdk-go)](https://goreportcard.com/report/github.com/severity1/claude-code-sdk-go)
+[![CI](https://github.com/rokrokss/claude-code-sdk-go/actions/workflows/ci.yml/badge.svg)](https://github.com/rokrokss/claude-code-sdk-go/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/rokrokss/claude-code-sdk-go.svg)](https://pkg.go.dev/github.com/rokrokss/claude-code-sdk-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rokrokss/claude-code-sdk-go)](https://goreportcard.com/report/github.com/rokrokss/claude-code-sdk-go)
 [![codecov](https://codecov.io/gh/severity1/claude-code-sdk-go/branch/main/graph/badge.svg)](https://codecov.io/gh/severity1/claude-code-sdk-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -26,7 +26,7 @@ Unofficial Go SDK for Claude Code CLI integration. Build production-ready applic
 ## Installation
 
 ```bash
-go get github.com/severity1/claude-code-sdk-go
+go get github.com/rokrokss/claude-code-sdk-go
 ```
 
 **Prerequisites:** Go 1.18+, Node.js, Claude Code (`npm install -g @anthropic-ai/claude-code`)
@@ -56,7 +56,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/severity1/claude-code-sdk-go"
+    "github.com/rokrokss/claude-code-sdk-go"
 )
 
 func main() {
@@ -118,7 +118,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/severity1/claude-code-sdk-go"
+    "github.com/rokrokss/claude-code-sdk-go"
 )
 
 func main() {
@@ -186,7 +186,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/severity1/claude-code-sdk-go"
+    "github.com/rokrokss/claude-code-sdk-go"
 )
 
 func main() {
@@ -324,7 +324,7 @@ err := claudecode.WithClient(ctx, func(client claudecode.Client) error {
 })
 ```
 
-See [pkg.go.dev](https://pkg.go.dev/github.com/severity1/claude-code-sdk-go) for complete API reference.
+See [pkg.go.dev](https://pkg.go.dev/github.com/rokrokss/claude-code-sdk-go) for complete API reference.
 
 ## When to Use Which API
 

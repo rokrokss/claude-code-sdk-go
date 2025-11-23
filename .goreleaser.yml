@@ -41,7 +41,7 @@ changelog:
 
 release:
   github:
-    owner: severity1
+    owner: rokrokss
     name: claude-code-sdk-go
   discussion_category_name: General
   prerelease: auto
@@ -54,13 +54,13 @@ release:
     ### Installation
 
     ```bash
-    go get github.com/severity1/claude-code-sdk-go@{{ .Tag }}
+    go get github.com/rokrokss/claude-code-sdk-go@{{ .Tag }}
     ```
 
     ### Usage
 
     ```go
-    import "github.com/severity1/claude-code-sdk-go"
+    import "github.com/rokrokss/claude-code-sdk-go"
 
     // Query API (one-shot)
     messages, err := claudecode.Query(ctx, "Hello!")
@@ -73,19 +73,19 @@ release:
 
     ### Documentation
 
-    📦 **[View on pkg.go.dev](https://pkg.go.dev/github.com/severity1/claude-code-sdk-go@{{ .Tag }})**
+    📦 **[View on pkg.go.dev](https://pkg.go.dev/github.com/rokrokss/claude-code-sdk-go@{{ .Tag }})**
 
   footer: |
     ## SDK Release Notes
 
     This Go SDK provides 100% Python SDK parity with Go-native patterns.
 
-    **Full Changelog**: https://github.com/severity1/claude-code-sdk-go/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/rokrokss/claude-code-sdk-go/compare/{{ .PreviousTag }}...{{ .Tag }}
 
     ### Resources
-    - 📚 [Documentation](https://pkg.go.dev/github.com/severity1/claude-code-sdk-go@{{ .Tag }})
-    - 💻 [Examples](https://github.com/severity1/claude-code-sdk-go/tree/{{ .Tag }}/examples)
-    - 🐛 [Report Issues](https://github.com/severity1/claude-code-sdk-go/issues)
+    - 📚 [Documentation](https://pkg.go.dev/github.com/rokrokss/claude-code-sdk-go@{{ .Tag }})
+    - 💻 [Examples](https://github.com/rokrokss/claude-code-sdk-go/tree/{{ .Tag }}/examples)
+    - 🐛 [Report Issues](https://github.com/rokrokss/claude-code-sdk-go/issues)
 
   extra_files:
     - glob: ./README.md

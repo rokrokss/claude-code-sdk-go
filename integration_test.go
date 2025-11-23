@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/severity1/claude-code-sdk-go"
+	claudecode "github.com/rokrokss/claude-code-sdk-go"
 )
 
 // TestIntegrationCoreQueries tests core query functionality end-to-end

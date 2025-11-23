@@ -15,9 +15,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/severity1/claude-code-sdk-go/internal/cli"
-	"github.com/severity1/claude-code-sdk-go/internal/parser"
-	"github.com/severity1/claude-code-sdk-go/internal/shared"
+	"github.com/rokrokss/claude-code-sdk-go/internal/cli"
+	"github.com/rokrokss/claude-code-sdk-go/internal/parser"
+	"github.com/rokrokss/claude-code-sdk-go/internal/shared"
 )
 
 const (

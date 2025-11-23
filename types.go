@@ -3,7 +3,7 @@ package claudecode
 import (
 	"context"
 
-	"github.com/severity1/claude-code-sdk-go/internal/shared"
+	"github.com/rokrokss/claude-code-sdk-go/internal/shared"
 )
 
 // Message represents any message type in the conversation.

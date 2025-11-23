@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/severity1/claude-code-sdk-go/internal/shared"
+	"github.com/rokrokss/claude-code-sdk-go/internal/shared"
 )
 
 // TestTransportLifecycle tests connection lifecycle, state management, and reconnection

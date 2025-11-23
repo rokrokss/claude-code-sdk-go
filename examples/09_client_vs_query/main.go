@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/severity1/claude-code-sdk-go"
+	claudecode "github.com/rokrokss/claude-code-sdk-go"
 )
 
 func main() {

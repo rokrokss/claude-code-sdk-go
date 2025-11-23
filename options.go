@@ -1,7 +1,7 @@
 package claudecode
 
 import (
-	"github.com/severity1/claude-code-sdk-go/internal/shared"
+	"github.com/rokrokss/claude-code-sdk-go/internal/shared"
 )
 
 // Options contains configuration for Claude Code CLI interactions.

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/severity1/claude-code-sdk-go/internal/shared"
+	"github.com/rokrokss/claude-code-sdk-go/internal/shared"
 )
 
 // TestCLIDiscovery tests CLI binary discovery functionality
